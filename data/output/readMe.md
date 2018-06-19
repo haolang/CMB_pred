@@ -49,7 +49,7 @@ USRID |
 
 
 ### evt_tf_idf.csv
-> 没有log数据的用户对应的用户ID
+> 根据 prep_usr_evt.csv 文件得到的TF-IDF
 
 163578914(EVT_ID) | ...
 :----: | :---:
