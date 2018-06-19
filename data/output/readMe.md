@@ -73,7 +73,7 @@ TF-IDF值 | ...
 
 ***
 ### sorted_train_agg_have_log_usr.csv
-> 根据 sorted_train_agg.csv 和no_log_usr.csv 筛选得到有log时间对应的agg用户事件=
+> 根据 sorted_train_agg.csv 和no_log_usr.csv 筛选得到,在log文件中存在相应的USRID则在此文件中有对应的agg
 
 V1 | V2 | ... | V30 | USRID
 :----: | :---: | :---: | :---: | :---: 
