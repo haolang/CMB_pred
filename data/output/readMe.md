@@ -24,6 +24,7 @@
         sorted_train_agg.csv
         sorted_train_agg_have_log_usr.csv
         sorted_train_flg.csv
+        sorted_train_flg_have_log_usr.csv
         sorted_train_log.csv
         train_agg_flg_0.csv
         train_agg_flg_1.csv
@@ -109,5 +110,13 @@ TF-IDF值 | ...
 V1 | V2 | ... | V30 | USRID
 :----: | :---: | :---: | :---: | :---: 
 v1 | v2 | ... | v30 | 用户ID | 
+
+***
+### sorted_train_flg_have_log_usr.csv
+> 根据 sorted_train_flg.csv 和no_log_usr.csv 筛选得到,在log文件中存在相应的USRID则在此文件中有对应的agg
+
+USRID | FLAG
+:----: | :---: 
+用户ID | 0或1
 
 ***
