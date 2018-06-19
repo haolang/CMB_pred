@@ -14,7 +14,7 @@ class RunTime:
 
         m, s = divmod(end - self.start_time, 60)
         h, m = divmod(m, 60)
-        print('%dh, %dm, %ds' % (h, m , s))
+        print('用时： %dh, %dm, %ds' % (h, m, s))
 
 
 runtime = RunTime()
