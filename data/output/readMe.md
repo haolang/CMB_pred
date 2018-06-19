@@ -36,6 +36,15 @@ EVT | USRID
 事件 | 用户ID 
 
 *多个事件用 空格‘ ’分割，无事件则数值为0*
+***
+### prep_evt_have_log_usr.csv
+> 有log记录的用户点击过的事件
+
+EVT | USRID 
+:----: | :----: 
+事件 | 用户ID 
+
+*多个事件用 空格‘ ’分割，无事件则数值为0*
 
 ***
 ### no_log_usr.csv
@@ -46,12 +55,19 @@ USRID |
 用户ID |
 
 ***
-
-
-### evt_tf_idf.csv
+### tf_idf_evt.csv
 > 根据 prep_usr_evt.csv 文件得到的TF-IDF
 
 163578914(EVT_ID) | ...
+:----: | :---:
+TF-IDF值 | ...
+
+***
+
+### tf_idf_have_log_usr_evt.csv
+> 根据 prep_evt_have_log_usr.csv 文件得到的TF-IDF
+
+101515(EVT_ID) | ...
 :----: | :---:
 TF-IDF值 | ...
 
