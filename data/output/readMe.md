@@ -72,3 +72,11 @@ TF-IDF值 | ...
 TF-IDF值 | ...
 
 ***
+### sorted_train_agg_have_log_usr.csv
+> 根据 sorted_train_agg.csv 和no_log_usr.csv 筛选得到有log时间对应的agg用户事件=
+
+V1 | V2 | ... | V30 | USRID
+:----: | :---: | :---: | :---: | :---: 
+v1 | v2 | ... | v30 | 用户ID | 
+
+***
