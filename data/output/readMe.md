@@ -1,5 +1,5 @@
 # 文件说明
-**数据读取建议用 pd.read_table(),csv数据分割付均使用 \t**
+**数据读取建议用 pd.read_table(),csv数据分割符均使用 \t**
 ### prediction_flg.csv
 > 预测结果表格
 - 表格格式如下：
